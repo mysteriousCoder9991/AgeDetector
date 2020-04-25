@@ -1,0 +1,7 @@
+The following packages are required
+1.numpy
+2.argparse
+3.imutils
+4.time
+5.cv2
+6.os
