@@ -25,7 +25,7 @@ public class MainEntry {
 
   public static void main(String[] a) throws UnsupportedAudioFileException, IOException, LineUnavailableException {
     JFrame frame = new JFrame();
-    String path="E:\\ProjectP1\\alert.wav";
+    String path="Path to the Music directory";
     AudioInputStream audioStream = AudioSystem.getAudioInputStream(new File(path).getAbsoluteFile());
     Clip clip = AudioSystem.getClip(); 
     clip.open(audioStream); 
@@ -38,7 +38,7 @@ public class MainEntry {
 	    clip = AudioSystem.getClip(); 
 	    clip.open(audioStream); 
 	    clip.start();
-    	ProcessBuilder builder = new ProcessBuilder("cmd.exe", "/c", "cd \"J:\\4th Semester\\Python Project\\opencv-age-detection\\Mine\" && python dav.py --face face_detector --age age_detector");
+    	ProcessBuilder builder = new ProcessBuilder("cmd.exe", "/c", "Path to the  directory in which you have the file" && "python dav.py --face face_detector --age age_detector");
 	    builder.redirectErrorStream(true);
 	    BufferedReader r = null; 
 	    try
@@ -60,7 +60,7 @@ public class MainEntry {
             System.out.println(line);
         }
     }
-     path="C:\\Users\\rahul\\Downloads\\alert.wav";
+     path="Path to the Music directory";
      audioStream = AudioSystem.getAudioInputStream(new File(path).getAbsoluteFile());
      clip = AudioSystem.getClip(); 
     clip.open(audioStream); 
