@@ -6,7 +6,7 @@ The following packages are required in python
 5.cv2
 6.os
 
-The following packages are required in the github
+The following packages are required in java and if its jdk is 14.0 is perfect
 1.java.io
 2.javax.sound
 3.javax.swing
