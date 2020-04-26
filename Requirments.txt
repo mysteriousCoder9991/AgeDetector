@@ -1,7 +1,12 @@
-The following packages are required
+The following packages are required in python
 1.numpy
 2.argparse
 3.imutils
 4.time
 5.cv2
 6.os
+
+The following packages are required in the github
+1.java.io
+2.javax.sound
+3.javax.swing
